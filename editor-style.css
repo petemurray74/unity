@@ -1,0 +1,88 @@
+/*
+Theme Name: Twenty Ten
+Description: Used to style the TinyMCE editor.
+*/
+
+
+body {
+	font-size: 90%;
+	font-family: Arial;
+	color: #333;
+}
+
+/* TEXT ELEMENTS SET UP */
+p,dd{margin:0em 0em 1.4em 0em;line-height:140%}
+strong {font-weight: bold;}
+cite,em,i {font-style: italic;}
+#content ul,#content ol {margin: 0 0 1.4em 1.8em;}
+#content li {margin-bottom:0.4em;line-height:130%;}
+#content ul {list-style: square;}
+#content ol {list-style: decimal;}
+#content table {border: 1px solid #e7e7e7;margin: 0 -1px 1.5em 0;text-align: left;width: 100%;}
+#content tr th,
+#content thead th {color: #888;font-size: 12px;font-weight: bold;line-height: 18px;padding: 9px 24px;}
+#content tr td {border-top: 1px solid #e7e7e7;padding: 6px 24px;}
+#content h1,#content h2,#content h3,#content h4,#content h5,#content h6{margin:0em 0em 0.4em 0em;line-height:120%;font-weight:bold;letter-spacing:-1px;}
+
+/* IMAGES - straight from WordPress */
+
+/*
+Resize images to fit the main content area.
+- Applies only to images uploaded via WordPress by targeting size-* classes.
+- Other images will be left alone. Use "size-auto" class to apply to other images.
+*/
+
+img.size-auto,img.size-full,img.size-large,img.size-medium,.attachment img {max-width: 100%; /* When images are too wide for containing element, force them to fit. */height: auto; /* Override height to match resized width for correct aspect ratio. */}
+.alignleft,img.alignleft {display: inline;float: left;margin-right: 24px;margin-top: 4px;}
+.alignright,img.alignright {display: inline;float: right;margin-left: 24px;margin-top: 4px;}
+.aligncenter,img.aligncenter {clear: both;display: block;margin-left: auto;margin-right: auto;}
+img.alignleft,img.alignright,img.aligncenter {margin-bottom: 12px;}
+.wp-caption {background: #f1f1f1;line-height: 18px;margin-bottom: 20px;max-width: 632px !important; /* prevent too-wide images from breaking layout */padding: 4px;text-align: center;}
+.wp-caption img {margin: 5px 5px 0;}
+.wp-caption p.wp-caption-text {color: #888;font-size: 12px;margin: 5px;}
+.wp-smiley {margin: 0;}
+.gallery {margin: 0 auto 18px;}
+.gallery .gallery-item {float: left;margin-top: 0;text-align: center;width: 33%;}
+.gallery-columns-2 .gallery-item {width: 50%;}
+.gallery-columns-4 .gallery-item {width: 25%;}
+.gallery img {border: 2px solid #cfcfcf;}
+.gallery-columns-2 .attachment-medium {max-width: 92%;height: auto;}
+.gallery-columns-4 .attachment-thumbnail {max-width: 84%;height: auto;}
+.gallery .gallery-caption {color: #888;font-size: 12px;margin: 0 0 12px;}
+.gallery dl {margin: 0;}
+.gallery img {border: 10px solid #f1f1f1;}
+.gallery br+br {display: none;}
+#content .attachment img {/* single attachment images should be centered */display: block;margin: 0 auto;}
+
+
+/* STYLES MAIN */
+
+#content h1{font-size:170%;letter-spacing:-1px;}
+#content h2{font-size:140%;}
+#content h3{font-size:110%;letter-spacing:0px;}
+#content h4{font-size:110%;}
+#content h5{font-size:100%;text-transform:uppercase;}
+#content h6{font-size:80%;text-transform:uppercase;letter-spacing:0px;}
+
+blockquote {
+font-style: italic;
+font-size:90%;
+line-height:140%;
+margin: 1em 2em;
+padding:0em 1em;
+border-left:2px dotted #ccc ;
+}
+/* stop that bothersome extra space */
+blockquote p:last-child {margin-bottom:0em;}
+
+dl {margin: 0 1.5em;}
+dt {font-weight: bold;}
+
+a:link, a:visited {
+	color: #666;
+}
+a:hover {
+	color: #000;
+	text-decoration:none;
+}
+
